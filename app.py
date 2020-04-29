@@ -33,6 +33,9 @@ def about():
 @app.route('/introduction')
 def WordSection1():
     return render_template('home.html')
+@app.route('/feedback')
+def WordSection1():
+    return render_template('feedback.html')
  
 if __name__ == '__main__': app.run(debug=True) 
  
