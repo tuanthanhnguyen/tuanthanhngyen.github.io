@@ -31,7 +31,7 @@ def home():
 def about():
     return render_template('about.html')
 @app.route('/introduction')
-def home1():
+def WordSection1():
     return render_template('home.html')
  
 if __name__ == '__main__': app.run(debug=True) 
