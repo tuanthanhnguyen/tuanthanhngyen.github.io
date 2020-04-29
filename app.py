@@ -32,7 +32,7 @@ def about():
     return render_template('about.html')
 @app.route('/introduction')
 def about():
-    return render_template('hello.html')
+    return render_template('home.html')
  
 if __name__ == '__main__': app.run(debug=True) 
  
