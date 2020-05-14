@@ -36,9 +36,9 @@ def WordSection1():
 @app.route('/feedback')
 def feedback():
     return render_template('feedback.html')
-'''@app.route('/test')
+@app.route('/test')
 def test():
-    return render_template('test.html')'''
+    return render_template('first embed.html')
  
 if __name__ == '__main__': app.run(debug=True) 
  
