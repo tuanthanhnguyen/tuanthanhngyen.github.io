@@ -38,7 +38,7 @@ def feedback():
     return render_template('feedback.html')
 @app.route('/test')
 def test():
-    return render_template('image.jpg')
+    return ('image.jpg')
  
 if __name__ == '__main__': app.run(debug=True) 
  
