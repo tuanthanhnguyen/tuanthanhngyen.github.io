@@ -39,8 +39,8 @@ def feedback():
 @app.route('/test')
 def test():
     return render_template('first embed.html')
-@app.route('/newapp')
-def newapp():
+@app.route('/myapp')
+def myapp():
     return render_template('myapp.html')
  
 if __name__ == '__main__': app.run(debug=True) 
